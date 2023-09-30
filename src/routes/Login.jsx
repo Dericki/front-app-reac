@@ -14,7 +14,7 @@ export default function Login(){
 const handleSubmit =() =>{
   if(user.current.value ==='Admin' && password.current.value ==='123456'){
 
-    //Autenticação com token
+    //AUTENTICÃO COM TOKEN
     let token = Math.random().toString(16).substring(2)+ Math.random().toString(16).substring(2);
 
     sessionStorage.setItem('userData', 'Admin');
